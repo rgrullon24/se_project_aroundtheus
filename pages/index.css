@@ -93,6 +93,7 @@
   flex-direction: column;
   list-style: none;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .card__image {
@@ -147,4 +148,6 @@ media screen and max-width480px {
   display: flex;
   text-align: left;
   color: #545454;
+  padding-top: auto;
+  padding-bottom: auto;
 }
