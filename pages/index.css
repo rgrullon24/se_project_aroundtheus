@@ -147,6 +147,4 @@ media screen and max-width480px {
   display: flex;
   text-align: left;
   color: #545454;
-  padding-top: auto;
-  padding-bottom: auto;
 }
