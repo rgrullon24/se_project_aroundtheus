@@ -1,0 +1,18 @@
+.footer {
+  height: 18px;
+  flex-direction: column;
+  display: flex;
+  text-align: left;
+  color: #545454;
+  padding-top: auto;
+  padding-bottom: auto;
+  padding-top: 22px;
+  padding-bottom: auto;
+  margin: auto;
+}
+
+media screen and max-width480px {
+  .footer {
+    flex-direction: column;
+  }
+}
