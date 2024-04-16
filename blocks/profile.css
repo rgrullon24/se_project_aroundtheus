@@ -55,6 +55,7 @@
   .profile {
     background-color: pink;
     flex-direction: column;
+    justify-content: center;
   }
 
   .profile__info {

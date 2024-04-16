@@ -35,6 +35,9 @@
   padding-right: 20px;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .card__like-button {
