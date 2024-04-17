@@ -17,6 +17,8 @@
   height: 24px;
   width: 24px;
   grid-area: button;
+  border: 1px;
+  color: #ffffff;
 }
 
 .profile__add-button {
@@ -24,6 +26,9 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
+  border-radius: 2px;
+  border: 2px;
+  color: #ffffff;
 }
 
 .profile__title {
@@ -31,7 +36,6 @@
   font-weight: 500;
   font-size: 42px;
   line-height: 48px;
-  font-weight: 500;
   grid-area: title;
   margin: 0;
 }
@@ -41,7 +45,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  font-weight: 400;
   grid-area: description;
   margin: 0;
   color: white;
@@ -58,7 +61,6 @@
 
 @media screen and (max-width: 620px) {
   .profile {
-    background-color: pink;
     flex-direction: column;
     align-items: center;
   }
