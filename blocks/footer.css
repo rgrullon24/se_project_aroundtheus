@@ -1,4 +1,6 @@
 .footer {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
   height: 18px;
   flex-direction: column;
   display: flex;
