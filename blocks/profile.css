@@ -90,12 +90,12 @@
   .profile__description {
     width: 100%;
     text-align: center;
-    column-gap: space-between;
   }
 
   .profile__add-button {
     margin: 0;
     width: 100%;
+    margin-top: 40px;
   }
 
   .profile__title {
