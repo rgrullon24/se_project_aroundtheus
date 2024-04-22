@@ -66,6 +66,10 @@
   grid-area: description;
   margin: 0;
   color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 1280px;
 }
 
 .profile__image {
@@ -102,6 +106,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0 0 18px;
   }
 
   .profile__add-button {
@@ -118,5 +123,18 @@
   .profile__edit-button {
     height: 18px;
     width: 18px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .profile__title {
+    font-size: 22px;
+    transition: all 0.5s ease;
+  }
+
+  .profile__edit-button {
+    height: 16px;
+    width: 16px;
+    transition: all 0.5s ease;
   }
 }
