@@ -12,9 +12,18 @@
   margin: auto;
 }
 
+.footer__copyright {
+  line-height: 22px;
+  font-size: 18px;
+}
+
 @media screen and (max-width: 480px) {
   .footer {
     width: 282px;
-    height: 14px;
+  }
+
+  .footer__copyright {
+    line-height: 17px;
+    font-size: 14px;
   }
 }
