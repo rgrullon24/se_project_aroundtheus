@@ -5,11 +5,10 @@
   display: flex;
   text-align: left;
   color: #545454;
-  padding-top: auto;
   /* padding-top: 18px; */
   /* padding-bottom: auto;
   margin: auto; */
-  padding: 48px 0 67px 0;
+  padding: 67px 0 60px 0;
 }
 
 .footer__copyright {
