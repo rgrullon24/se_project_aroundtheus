@@ -2,6 +2,8 @@
 
 Around The U.S.
 
+https://tripleten.com/trainer/web/lesson/5de5bb2f-93ca-419e-a0a0-10376b4712bc/?from=program
+
 Project 3 is the first project we start from scretch. we have to creaete are own html sheet and create are own style sheet. This project is a little diferent because we have to create view points for each view point. For example (desktop-->tablet-->mobile device).
 
 To get projected started we used figma to get are layout and measurments we need to have our project in the correct format. Some techniques used were flexbox and grid and also adding media queries.
