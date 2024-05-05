@@ -19,9 +19,9 @@
   height: 23px;
   top: 229px;
   left: 461px;
-  font: "Inter";
+  font: "Inter", Arial, sans-serif;
   font-weight: 900;
-  size: 24px;
+  font-size: 24px;
   line-height: 29px;
 }
 
@@ -31,9 +31,32 @@
   top: 306px;
   left: 461px;
   border-bottom: none;
-  border-color: #000;
   justify-content: space-between;
   display: inline-block;
+}
+
+.modal__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 358px;
+  height: 27px;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin-left: 36px;
+  row-gap: 39px;
+}
+
+.text__input {
+  align-self: stretch;
+  margin-top: 10px;
+  width: 358px;
+  height: 27px;
+  font: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000;
 }
 
 .modal__button {
@@ -45,6 +68,7 @@
   background-color: #000;
   color: #fff;
   display: inline-block;
+  margin-top: 48px;
 }
 
 .modal__container {
