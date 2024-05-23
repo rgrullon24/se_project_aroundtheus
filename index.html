@@ -35,7 +35,7 @@
         </section>
         <section class="cards page__section">
           <ul class="cards__list">
-            <li class="card">
+            <!-- <li class="card">
               <img
                 src="./images/yosemite.jpg"
                 class="card__image"
@@ -100,7 +100,7 @@
                 <h2 class="card__title">Lago di Braies</h2>
                 <button type="button" class="card__like-button"></button>
               </div>
-            </li>
+            </li> -->
           </ul>
         </section>
       </main>
@@ -132,6 +132,16 @@
         </form>
       </div>
     </div>
+
+    <template id="card-template">
+      <li class="card">
+        <img src="" class="card__image" alt="" />
+        <div class="card__description">
+          <h2 class="card__title"></h2>
+          <button type="button" class="card__like-button"></button>
+        </div>
+      </li>
+    </template>
 
     <script src="./scripts/index.js"></script>
   </body>
