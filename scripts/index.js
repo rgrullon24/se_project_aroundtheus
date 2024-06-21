@@ -39,6 +39,8 @@ const cardListEL = document.querySelector(".cards__list");
 const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
 
+const addNewCardButton = document.querySelector(".profile__add-button");
+
 function closePopop() {
   profileEditModal.classList.remove("modal_opened");
 }
@@ -71,6 +73,9 @@ profileModalClose.addEventListener("click", () => {
 });
 
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
+addNewCardButton.addEventListener("click", () => {
+  openModal(addNewCardButton);
+});
 
 initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
